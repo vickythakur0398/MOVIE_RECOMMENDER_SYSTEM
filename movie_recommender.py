@@ -90,7 +90,7 @@ sorted_similar_movies = sorted(similar_movies,key=lambda x:x[1],reverse=True)
 i=0
 print("Top 10 similar movies to "+movie_user_likes+" are:\n")
 for element in sorted_similar_movies:
-    print(get_title_from_index(element[0]))
+    print("MOVIE SIMILAR TO - >  " + a + " IS ->>>>  "+ get_title_from_index(element[0]))
     i=i+1
     if i>10:
         break
